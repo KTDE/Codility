@@ -4,13 +4,8 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 public class FrogRiverOne {
-	public static void  main (String [] agrs)
-	{
-		int [] A = {1,4,2,1,3,4,5,4,1,5,5};
-		System.out.println("Value of earliest moment is: " + solution (5, A));
-	}
 	
-	public static int solution (int X, int [] A)
+	public int solution (int X, int [] A)
 	{
 		int earliestValue = -1;
 		
