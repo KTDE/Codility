@@ -2,13 +2,7 @@ package codility;
 
 public class TapeEquilibrium {
 	
-	public static void main (String [] agrs)
-	{
-		int [] A = {3,5,7,9};
-		System.out.println("min diff = " + solution(A));
-	}
-	
-	 public static int solution(int[] A) {
+	 public int solution(int[] A) {
 	        // write your code in Java SE 8
 			int sum = 0;	
 			int leftSum = 0;
