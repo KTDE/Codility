@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Fibonacci {
 
-	public static void Fib(int n)
+	public void Fib(int n)
 	{
 		int a = 0;
 		int b = 1;
