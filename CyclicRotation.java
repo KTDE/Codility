@@ -1,19 +1,8 @@
 package codility;
 
 public class CyclicRotation {
-	public static void main (String [] agrs)
-	{
-		int[] A = {0};
-		
-//		for (int i:A)
-//			System.out.println(i);
-		
-		int []A2  = solution(A,2);
-		for (int j :A2)
-			System.out.println(j);		
-	}
 	
-	 public static int[] solution(int[] A, int K)
+	 public int[] solution(int[] A, int K)
 	 {
 		 if(A.length == 0 || A.length ==1 || K ==0)
 			 return A;
@@ -43,4 +32,3 @@ public class CyclicRotation {
 			 return A;
 		 }		
 	 }
-}
