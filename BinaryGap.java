@@ -50,4 +50,3 @@ public class BinaryGap {
 		}
 		return arl;
 	}	
-}
