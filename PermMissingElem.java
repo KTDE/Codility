@@ -1,13 +1,8 @@
 package codility;
 
 public class PermMissingElem {
-	public static void main (String [] agrs)
-	{
-		int [] A = {1,2,3,5,6};
-		System.out.println("missing value = " + solution(A));
-	}
 	
-	public static int solution(int[] A)
+	public int solution(int[] A)
 	{
 		int N = A.length;
 		int sum = 0;
