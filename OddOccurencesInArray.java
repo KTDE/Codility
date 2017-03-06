@@ -1,14 +1,8 @@
 package codility;
 
 public class OddOccurencesInArray {
-	 
-	public static void main (String [] agrs)
-	{
-		int [] A = {1, 7, 3,7,1,1,1};
-		System.out.println("Unpaired number is: " + solution(A));
-	}
 	
-	public static int solution(int[] A)
+	public int solution(int[] A)
 	 {
 		int unpairedIndex = 0;
 		int counter = 0;
