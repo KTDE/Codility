@@ -1,12 +1,8 @@
 package codility;
 
 public class pitTriplet {
-	public static void main (String [] agrs)
-	{
-		int []A = {0,1,3,-2,0,1,0,-3,2,3};
-		System.out.println("pit is " + solution(A));
-	}
-	public static int solution (int [] A)
+	
+	public int solution (int [] A)
 	{
 		int n = A.length;
 		int P = A[0];
