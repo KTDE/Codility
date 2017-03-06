@@ -1,12 +1,8 @@
 package codility;
 
 public class PassingCars {
-	public static void main (String [] agrs)
-	{
-		int [] A = {0,0,1,0,1,1};
-		System.out.println(solution(A));
-	}
-	public static int solution (int [] A)
+	
+	public int solution (int [] A)
 	{
 		int n = A.length;
 		int pref_sum_A = 0;
