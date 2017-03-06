@@ -5,25 +5,14 @@ import java.util.Scanner;
 
 
 public class BinaryGap {
-
-	public static void main(String [] agrs)
-	{
-		System.out.println("Provide an Integer number ");
-		Scanner scanner = new Scanner (System.in);
-		int N = scanner.nextInt();
-		scanner.close();
-		System.out.println("Binary form" + DecimalToBinary(N));
-		int binaryGap = solution(N);
-		System.out.println("largest binary gap is: " + binaryGap);
-	}
 	
-	public static int solution(int N)
+	public int solution(int N)
 	{
 		ArrayList<Integer> binary = DecimalToBinary(N);
 		int counter = 0;
 		int gap = 0;
 		int i = 0;
-		
+	
 		// remove zeros at the beginning
 		while (binary.get(i)==0)
 		{
