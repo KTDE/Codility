@@ -3,13 +3,8 @@ package codility;
 import java.util.Arrays;
 
 public class multiplicative {
-	public static void main (String [] agrs)
-	{
-		double [] A = {1,1,2,3};
-		double [] B = {500000, 1000000, 1000000,500000};
-		System.out.println("number multiple: " + solution (A,B));
-	}
-	public static int solution(double[] A, double[] B) 
+	
+	public int solution(double[] A, double[] B) 
 	{
 		int n = A.length;
 		double [] C = new double [n];
