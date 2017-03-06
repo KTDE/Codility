@@ -2,13 +2,7 @@ package codility;
 
 public class leader {
 	
-		public static void main(String []args)
-		{
-			int [] A = {2,3,3,3,4,4,4,4,4};
-			
-			System.out.println("Leader is:" + solution(A));
-		}
-	    static int solution(int[] A) {
+	    public int solution(int[] A) {
 	        int n = A.length;
 	        int[] L = new int[n + 1];
 	        L[0] = -1;
